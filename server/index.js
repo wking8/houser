@@ -11,6 +11,7 @@ app.use(express.json())
 
 // Endpoint
 app.get('/api/houses', ctrl.allHouses)
+app.post('/api/houses', ctrl.addHouse)
 
 
 

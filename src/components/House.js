@@ -10,6 +10,7 @@ export default class House extends Component {
                 {this.props.house.city}
                 {this.props.house.state}
                 {this.props.house.zipcode}
+                <button>Delete</button>
             </div>
         )
     }
