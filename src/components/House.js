@@ -2,8 +2,15 @@ import React, { Component } from 'react'
 
 export default class House extends Component {
     render() {
+        console.log(this.props.house)
         return (
-            <div>House</div>
+            <div>
+                {this.props.house.name}
+                {this.props.house.address}
+                {this.props.house.city}
+                {this.props.house.state}
+                {this.props.house.zipcode}
+            </div>
         )
     }
 }

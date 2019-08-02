@@ -9,6 +9,9 @@ app.use(express.json())
 
 
 
+// Endpoint
+app.get('/api/houses', ctrl.allHouses)
+
 
 
 
